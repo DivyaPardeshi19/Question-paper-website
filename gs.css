@@ -1,0 +1,44 @@
+.card {
+     width: 285px;
+     height: 200px;
+     display:inline-block;
+     margin: 10px;
+     border-radius: 5px;
+     box-shadow: 0 4px 15px rgb(130, 129, 129);
+     text-align: center;
+     background-color: rgb(229, 237, 240);
+     
+}
+
+.card:hover {
+    box-shadow: 0 0 3px 3px rgb(222, 219, 219);
+    
+ }
+
+
+.card h2 {
+    color: rgb(5, 5, 5);
+}
+
+.card p {
+    color: rgb(29, 43, 43);
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration-line: underline;
+    color: black;
+}
+
+@media screen and(max-width:600px) {
+    .container {
+        width: 70%;
+    }
+}
+
+
+ 
+  
