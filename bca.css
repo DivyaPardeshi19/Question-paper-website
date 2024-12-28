@@ -58,7 +58,8 @@ h2 {
 
 @media screen and(max-width:600px) {
     .container {
-        width: 70%;
+        max-width:320px;
+
     }
 }
  
